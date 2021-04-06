@@ -1,0 +1,20 @@
+hari ke 2 
+install vuetify 
+caranya :
+
+masuk ke folder project ketikkan ke terminal
+vue add vuetify
+
+menambahkan folder router
+caranya ketikkan di terminal
+vue add vuex
+
+lalu edit di bagian index.js di dalem folder router
+
+tambahkan path & component
+contoh :
+  {
+    path: '/Slider',
+    name: 'Carousel',
+    component: () => import(/* /* webpackChunkName: "Carousel" */ '../components/Slider/Carousel.vue')
+  }
