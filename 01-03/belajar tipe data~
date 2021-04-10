@@ -1,0 +1,11 @@
+belajar :
+-string
+-number
+-boolean
+-array
+-object
+
+
+special number dalam js:
+
+NaN adalah Not a Number (tipe data = number)
